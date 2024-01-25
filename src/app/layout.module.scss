@@ -1,0 +1,19 @@
+.root {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px
+}
+
+.link {
+  text-transform: uppercase;
+  color: #567c4e;
+}
