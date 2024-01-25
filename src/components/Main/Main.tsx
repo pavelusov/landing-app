@@ -23,6 +23,7 @@ export const Main = () => {
       <Image
         src={mainImage}
         width={400}
+        alt='Станислав Цветков'
       />
     </div>
   )
