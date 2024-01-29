@@ -1,4 +1,6 @@
 /* Теперь можно использовать шрифт */
 body {
     font-family: 'BadScript', serif;
+    margin: 0;
+    padding: 0;
 }

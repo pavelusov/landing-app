@@ -3,8 +3,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: sticky;
+  top: 0;
+  background: white;
+  border-bottom: 0.1px solid #567c4e;
 }
-
 
 .links {
   display: flex;
@@ -16,4 +19,19 @@
 .link {
   text-transform: uppercase;
   color: #567c4e;
+  text-decoration: none;
+
+  &:hover {
+    font-weight: 800;
+    text-shadow: 0 0 5px rgba(0,0,0,1);
+    transition: 100ms ease-in;
+    color: #68ff5a;
+  }
+}
+
+.container {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

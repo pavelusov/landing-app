@@ -1,5 +1,6 @@
-import type { Metadata } from "next";
+import type { Metadata } from 'next';
 import cn from 'classnames';
+import Link from 'next/link'
 
 import "./globals.css";
 import s from './layout.module.scss';
@@ -21,12 +22,12 @@ export default function RootLayout({
       <body>
         <div className={s.root}>
           <div className={cn(s.links, badScriptFont.className)}>
-            <div className={s.link}>Обо мне</div>
-            <div className={s.link}>Чем могу помочь</div>
-            <div className={s.link}>Записаться</div>
+            <Link className={s.link} href="#part1">Обо мне</Link>
+            <Link className={s.link} href="#part2">Чем могу помочь</Link>
+            <Link className={s.link} href="#part3">Записаться</Link>
           </div>
         </div>
-        <div className={s.root}>
+        <div className={s.container}>
           {children}
         </div>
       </body>
