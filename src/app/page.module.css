@@ -14,6 +14,10 @@
     margin-right: 30px;
 }
 
+.image img {
+    box-shadow: 0 0 20px rgb(218, 156, 37);
+}
+
 .container {
     display: flex;
     justify-content: center;
@@ -40,5 +44,9 @@
 
     .title {
         text-align: center;
+    }
+
+    .image {
+        margin-right: 0;
     }
 }

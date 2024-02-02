@@ -51,6 +51,10 @@
   margin-left: 5px;
 }
 
+.root img {
+  box-shadow: 0 0 20px rgba(86,124,78,1);
+}
+
 @media only screen and (max-width: 600px) {
   .root {
     display: flex;
@@ -59,7 +63,16 @@
     align-items: center;
     margin-bottom: 20px;
   }
+
   .name {
     margin-top: 20px;
+  }
+
+  .content {
+    padding-right: 0;
+  }
+
+  .image img {
+    width: 100%;
   }
 }
