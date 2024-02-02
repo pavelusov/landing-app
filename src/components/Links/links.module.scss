@@ -45,8 +45,22 @@
   align-items: center;
   text-decoration: none;
   margin-left: 20px;
+  color: #567c4e;
+
+  &:visited, &:active {
+    color: #567c4e;
+  }
+
+  &:first-child {
+    margin-left: 0;
+  }
 }
 
 .linkText {
   margin-left: 5px;
+}
+
+.center {
+  justify-content: center;
+  margin-bottom: 50px;
 }

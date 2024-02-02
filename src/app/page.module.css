@@ -1,3 +1,29 @@
 .root {
     width: 1024px;
 }
+
+.describe {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 50px;
+    color: #727272;
+    text-align: justify;
+}
+
+.image {
+    margin-right: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.title {
+    text-align: right;
+    font-size: 24px;
+    font-weight: 800;
+    color: #727272;
+}

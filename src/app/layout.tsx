@@ -5,6 +5,7 @@ import Link from 'next/link'
 import "./globals.css";
 import s from './layout.module.scss';
 import { badScriptFont } from '@/fonts/loclaFonts';
+import {Phone} from "lucide-react";
 
 
 export const metadata: Metadata = {
@@ -20,13 +21,16 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <div className={s.root}>
-          <div className={cn(s.links, badScriptFont.className)}>
-            <Link className={s.link} href="#part1">Обо мне</Link>
-            <Link className={s.link} href="#part2">Чем могу помочь</Link>
-            <Link className={s.link} href="#part3">Записаться</Link>
-          </div>
-        </div>
+      <div className={s.root}>
+        <Link
+          href="tel:+79827141518"
+          target="_blank"
+          className={s.link}
+        >
+          <Phone />
+          <div className={s.linkText}>+7-982-714-15-18</div>
+        </Link>
+      </div>
         <div className={s.container}>
           {children}
         </div>
