@@ -50,3 +50,16 @@
 .linkText {
   margin-left: 5px;
 }
+
+@media only screen and (max-width: 600px) {
+  .root {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .name {
+    margin-top: 20px;
+  }
+}

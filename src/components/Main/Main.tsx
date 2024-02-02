@@ -1,6 +1,4 @@
 import Image from "next/image";
-import { PhoneCall, Send, Phone } from 'lucide-react';
-import Link from "next/link";
 
 import s from './main.module.scss';
 import mainImage from '/public/images/author_01.jpeg';

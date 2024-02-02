@@ -64,3 +64,14 @@
   justify-content: center;
   margin-bottom: 50px;
 }
+
+@media only screen and (max-width: 600px) {
+  .links {
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  .link {
+    margin-bottom: 10px;
+  }
+}
