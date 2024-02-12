@@ -1,0 +1,48 @@
+.blockquote {
+  position: relative;
+  font-size: 16px;
+  margin: 150px 16px 150px 16px;
+  border: 2px solid #567c4e;
+  border-radius:20px;
+  padding: 25px;
+  color: #567c4e;
+  z-index: -1;
+}
+
+.blockquote::after {
+  content:"";
+  position: absolute;
+  border: 2px solid #567c4e;
+  border-radius: 0 50px 0 0;
+  width: 40px;
+  height: 40px;
+  bottom: -40px;
+  left: 50px;
+  border-bottom: none;
+  border-left: none;
+  z-index: 2;
+  box-sizing: border-box;
+}
+.blockquote::before {
+  content:"";
+  position: absolute;
+  width: 80px;
+  border: 6px solid #FFF;
+  bottom: -3px;
+  left: 50px;
+  z-index: 1;
+}
+.blockquote cite {
+  position: absolute;
+  bottom: -30px;
+  left: 110px;
+  font-size: 13px;
+  font-weight: bold;
+  color: #567c4e;
+}
+
+@media only screen and (max-width: 600px) {
+  .blockquote {
+    margin: 80px 16px 100px 16px;
+  }
+}

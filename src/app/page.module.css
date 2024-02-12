@@ -14,6 +14,11 @@
     margin-right: 30px;
 }
 
+.imageMargin {
+    margin-left: 30px;
+    margin-right: 0;
+}
+
 .image img {
     box-shadow: 0 0 20px rgb(218, 156, 37);
 }
@@ -25,11 +30,21 @@
     margin-top: 20px;
 }
 
+.containerBottomMargin {
+    margin-bottom: 50px;
+}
+
 .title {
     text-align: right;
     font-size: 24px;
     font-weight: 800;
     color: #727272;
+}
+
+.leftTitle {
+    font-size: 24px;
+    font-weight: 800;
+    color: #567c4e;
 }
 
 
@@ -48,5 +63,9 @@
 
     .image {
         margin-right: 0;
+    }
+
+    .imageMargin {
+        margin: 50px 0 0 0;
     }
 }

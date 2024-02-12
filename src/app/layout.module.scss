@@ -5,11 +5,12 @@
   align-items: center;
   position: sticky;
   top: 0;
-  background: white;
+  background: rgba(255,255,255,0.1);
   border-bottom: 0.1px solid #567c4e;
   font-size: 30px;
   font-weight: 800;
   color: #567c4e;
+  backdrop-filter: blur(15px);
 }
 
 .linksContainer {
