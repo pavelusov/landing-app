@@ -4,8 +4,9 @@ import Image from "next/image";
 import Main from "@/components/Main";
 import s from "./page.module.css";
 
-import author02 from "/public/images/author_02.jpg";
-import author03 from "/public/images/author_03.jpeg";
+import author02 from "/public/images/photo-04.jpg";
+import author03 from "/public/images/photo-02.jpg";
+import author04 from "/public/images/photo-01.jpg";
 import Links from "@/components/Links";
 import { Blockquote } from "../components/Blockquote/Blockquote";
 
@@ -47,6 +48,7 @@ export default function Home() {
         Не даю советы. Вместе мы найдем творческий подход к жизни. На личных или онлайн встречах будем работать над твоими запросами, и находить экологичные пути их решения.
         То, что ты есть, это уже уникальная новость для меня. Гештальт подход это про отношения и к себе и в паре.
       </Blockquote>
+      <div className={s.imageWrapper} />
       <div className={cn(s.container, s.containerBottomMargin)}>
         <div>
           <div className={s.leftTitle}>С чем я работаю:</div>
@@ -83,6 +85,7 @@ export default function Home() {
         </div>
       </div>
       <Links center />
+      <div className={s.footerImage} />
     </main>
   );
 }

@@ -20,6 +20,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
       <div className={s.root}>
+        <span style={{ marginRight: 15 }}>Онлайн запись по телефону</span>
         <Link
           href="tel:+79827141518"
           target="_blank"
